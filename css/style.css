@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.page{
+    width: 43.785vw;
+    margin: auto;
+    padding: 20px;
+}
+.myaccount{
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    width: 98%;
+    margin: auto;
+}
+.logo-area{
+    background-color: #041e42;
+    width: 100%;
+    margin-top: .5em;
+}
+.walmart-logo{
+    transform: translateX(19vw);
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-bottom: 5px #ffc120 solid;
+}
+.card-title{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 2rem;
+}
+.card-desc{
+    width: 72%;
+    margin: auto;
+}
+.card-call-action{
+    padding: 10px 20px;
+    border-radius: 5em;
+    background-color: #fff;
+    border: 1px #414042 solid;
+    color: #414042;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    font-weight: bold;
+}
+.card-info{
+    text-align: center;
+}
+.hr-line{
+    background-color: #ffc120;
+    width: 12vw;
+    height: 1px;
+}
+
+.categories-container-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+    margin: auto;
+    margin-top: 1.5em;
+}
+.vegies-pantry,.household-baby,.meat-pet,.healthy-electronics,.eggs-toys,
+.personal-office{
+    display: flex;
+    border-bottom:  1px #e6e7e8 solid;
+    justify-content: space-between;
+    width: 40vw;
+    margin: auto;
+}
+.vegetable,.pantry,.household,.baby,.meat,.pet,.healthy,.electronics,
+.eggs,.toys,.personal,.office{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    justify-content: space-between;
+}
+.categories{
+    margin-top: 2em;
+}
+.footer{
+    border-top: 5px #041e42 solid;
+    font-family: arial;
+    margin-top: 2em;
+}
+
+.all-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 2em;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.announcements{
+    color: #6d6e71;
+    margin-top: 2em;
+}
+.announcements a{
+    color: #6d6e71;
+}
+.announcements h3{
+    font-size: 1rem;
+}
+.product-availability,.no-reply,.unsubscribe,.security,.address,.copy-right{
+    margin-top: 1em;
+}

@@ -40,6 +40,9 @@
     width: 72%;
     margin: auto;
 }
+.card-img{
+    width: 100%;
+}
 .card-call-action{
     padding: 10px 20px;
     border-radius: 5em;
